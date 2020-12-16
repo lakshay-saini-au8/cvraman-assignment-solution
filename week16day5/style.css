@@ -1,0 +1,43 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  background-color: black;
+}
+.box1 {
+  background-color: aqua;
+}
+.box2 {
+  background-color: red;
+}
+.box3 {
+  background-color: blue;
+}
+
+.header {
+  height: 20vh;
+  background-color: cornflowerblue;
+}
+.main .left {
+  width: 30vw;
+  height: 100%;
+  background-color: darkcyan;
+  float: left;
+}
+.main {
+  height: 60vh;
+  background-color: chocolate;
+}
+
+table {
+  width: 70vw;
+}
+.footer {
+  height: 20vh;
+  background-color: forestgreen;
+  position: relative;
+}
