@@ -1,0 +1,33 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+main {
+  padding: 3%;
+}
+img {
+  width: 100%;
+  padding: 3%;
+  padding-bottom: 0;
+}
+img + p {
+  padding: 3%;
+  padding-top: 0;
+}
+ul {
+  padding-left: 3%;
+}
+ul + p {
+  padding-left: 3%;
+  padding-top: 3%;
+}
+hr {
+  border: 3px solid black;
+}
+h3 {
+  padding-top: 1%;
+}
+a {
+  text-decoration: none;
+}

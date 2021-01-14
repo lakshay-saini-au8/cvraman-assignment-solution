@@ -1,0 +1,68 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #6ea9e0bd;
+  font-size: 16px;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  padding-top: 20px;
+}
+.box {
+  margin: 20px 50px;
+  padding: 50px 0;
+  border-radius: 5px;
+  text-align: center;
+  background: #fff;
+  padding-bottom: 66px;
+}
+.box .head {
+  padding: 20px;
+  font-weight: 500;
+  padding-top: 0;
+}
+.left {
+  width: 50%;
+  float: left;
+  text-align: right;
+}
+.right {
+  text-align: left;
+}
+.text-box {
+  height: 50px;
+}
+.text-box p {
+  position: relative;
+  font-weight: 500;
+  padding-right: 20px;
+  height: 100%;
+  top: 4px;
+}
+
+.text-box input {
+  padding: 5px;
+  border: 1px solid darkgrey;
+  border-radius: 3px;
+  width: 250px;
+}
+
+.text-box select {
+  padding: 5px;
+  border: 1px solid darkgrey;
+  border-radius: 3px;
+}
+.text-box input[type="radio"] {
+  width: auto;
+  margin: 5px 10px;
+  margin-left: 0;
+}
+.text-box input[type="checkbox"] {
+  width: auto;
+  margin: 5px 10px;
+  margin-left: 0;
+}

@@ -39,8 +39,20 @@
 // console.log("length", arrayList.length);
 // console.log("data", arrayList[15]);
 
-var bar = true;
-console.log(+true);
-console.log(bar + "xyz");
-console.log(bar + true);
-console.log(bar + false);
+// var bar = true;
+// console.log(+true);
+// console.log(bar + "xyz");
+// console.log(bar + true);
+// console.log(bar + false);
+true = 1;
+false = 0;
+console.log(2 + true);
+console.log(null == undefined);
+console.log(null === undefined);
+0;
+("");
+null;
+undefined;
+false;
+
+new String();

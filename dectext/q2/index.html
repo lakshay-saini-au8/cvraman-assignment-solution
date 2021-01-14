@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Survey</title>
+</head>
+
+<body>
+    <h1 style="text-align:center">Survey Form</h1>
+    <div class="box">
+        <p class="head">Let us know how we can improve freeCodeCamp</p>
+        <div class="left">
+            <div class="text-box">
+                <p>Name</p>
+            </div>
+            <div class="text-box">
+                <p>Email</p>
+            </div>
+            <div class="text-box">
+                <p>Age</p>
+            </div>
+            <div class="text-box">
+                <p>Which option best describes your current role?</p>
+            </div>
+            <div class="text-box">
+                <p>How Likely that you would recommend freeCodeCamp to a friend?</p>
+            </div>
+            <div class="text-box" style="margin-top: 60px;">
+                <p>
+                    What do you like most in freeCodeCamp?
+                </p>
+            </div>
+            <div class="text-box">
+                <p>
+                    Things that should be improved in future?
+                    <br>(Check all that apply)
+                </p>
+            </div>
+        </div>
+        <div class="right">
+            <div class="text-box">
+                <input type="text" name="name" placeholder="Enter your name" required />
+            </div>
+            <div class="text-box">
+                <input type="email" name="email" placeholder="Enter your Email"
+                required />
+            </div>
+            <div class="text-box">
+                <input type="number" name="age" placeholder="Age" />
+            </div>
+            <div class="text-box">
+                <select  name="role"required>
+                    <option disabled selected value>Select current role</option>
+                    <option value="student">Student</option>
+                    <option value="working">Working grp</option>
+                    <option value="business">Business </option>
+                    <option value="preferNo">Prefer not to say</option>
+                </select>
+            </div>
+            <div class="text-box">
+                <label>
+                    <input name="user-recommend" value="definitely" type="radio" class="input-radio"
+                        checked />Definitely</label> <br>
+                <label>
+                    <input name="user-recommend" value="maybe" type="radio" class="input-radio" />Maybe</label><br>
+
+                <label><input name="user-recommend" value="not-sure" type="radio" class="input-radio" />Not
+                    sure</label>
+            </div>
+            <div class="text-box" style="margin-top: 60px;">
+                <select  name="mostLike" required>
+                    <option disabled selected value>Select an option</option>
+                    <option value="projects">Projects</option>
+                    <option value="challenges">Challenges</option>
+                    <option value="community">Community</option>
+
+                </select>
+            </div>
+            <div class="text-box">
+                <label><input name="prefer" value="front-end" type="checkbox" class="input-checkbox" />Front-end
+                    Projects</label><br>
+
+                <label>
+                    <input name="prefer" value="back-end" type="checkbox" class="input-checkbox" />Back-end
+                    Projects</label><br>
+                <label><input name="prefer" value="data-visualization" type="checkbox" class="input-checkbox" />Data
+                    Visualization</label>
+            </div>
+        </div>
+    </div>
+   
+</body>
+
+</html>
