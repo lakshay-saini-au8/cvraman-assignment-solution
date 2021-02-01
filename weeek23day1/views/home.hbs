@@ -1,1 +1,22 @@
 <h1>Home page </h1>
+<form action="/" method="POST">
+    <input type="text" name="name" placeholder="name">
+    <input type="email" name="email" placeholder="email">
+    <input type="text" name="number" placeholder="number">
+    <input type="text" name="address" placeholder="address">
+    <input type="text" name="hobbies" placeholder="hobbies">
+    <input type="submit" value="Submit">
+</form>
+
+{{#each data}}
+<div>{{name}}</div>
+<div>{{email}}</div>
+<div>{{number}}</div>
+<div>{{address}}</div>
+<hr>
+{{else}}
+No data
+{{/each}}
+{{#each error}}
+<div>{{message}}</div>
+{{/each}}
